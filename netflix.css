@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+*{
+    font-family: 'Gowun Dodum', sans-serif;
+    
+}
+body{
+    margin: 0;
+}
+.nav-suren-left a:hover{
+    color: black;
+    background-color: rgba(49, 45, 42, 0.507);
+}
+.nav-suren-left a:active{
+    color: black;
+    background-color: rgba(54, 47, 44, 0.658);
+}
+/*right-flow nav bar*/
+.nav-suren-right{
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.nav-suren-right a{
+    float: right;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    color: gray;
+    
+}
+.nav-suren-right a:hover{
+    color: rgb(255, 6, 6);
+    }
+.nav-suren-right a:active{
+    color: black;
+    background-color: rgba(54, 47, 44, 0.658);
+}
+/*Grey button*/
+.suren-button{
+    background-color: #f80909d5;
+    border-radius: 7px;
+    border-color: rgba(119, 20, 20, 0.479);
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    padding:4% 30%;
+    margin: auto;
+    transition:all .3s ease-out;
+    box-shadow: 0 0 40px -10px #000;
+    
+}
+.suren-button:hover{
+    background-color: rgba(134, 28, 28, 0.747);
+}
+/*Dark-gold button*/
+.suren-button-2{
+    background-color: black;
+    padding: 10px 18px;
+    color:yellow;
+    box-shadow: wheat;
+    border-color: yellow;
+    margin: auto;
+    box-shadow: 0 0 40px -10px #000;
+}
+.suren-button-2:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;    
+}
+/*footer*/
+.suren-footer{
+    background-color: rgba(22, 19, 19, 0.836);
+    text-align: center;
+    padding: 16px 15px;
+    left: 0%;
+    top: 100%;
+    right: 0%;
+    color: white;
+}
+/*inputs*/
+input[type= text]{
+    padding: 10px 15px;
+    border-radius: 7px;
+    border-color: rgba(8, 7, 7, 0.521);
+    width: 70%;
+}
+input[type= password]{
+    padding: 10px 15px;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.493);
+    width: 70%;
+}
+input[type= password]:focus, input[type= text]:focus{
+    outline: none;
+}
+input:focus{border-bottom:2px solid #78788c}
+/*label*/
+label{
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    font-weight: bold;
+}
+/*form*/
+.suren-form{
+    width: 25%;
+    padding: 50px 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.705);
+    margin: auto;
+    border-radius: 8px;
+    box-shadow:0 0 40px -10px #000;
+    cursor: pointer;
+    transition-duration: 3s;
+    transform-style: preserve-3d;
+}
+.suren-bg{
+    background-image: url(https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png);
+    background-repeat: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    .suren-form {
+        width: 70%;
+    }
+    .nav-suren-right a{
+        float: left;
+        margin-left: 20px;
+        text-align: center;
+        padding: 12px 12px;
+        text-decoration: none;
+        font-size: 17px;
+        color: gray;
+        
+    }
+    .suren-logo{
+        display: unset;
+    }
+  }
